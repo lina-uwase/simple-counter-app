@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #101820ff;
+    display: flex;
+}
+.containers{
+display: flex;
+}
+.container{
+    background:transparent;
+    width: 20em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10em;
+    border:2px solid #85FFBD;
+    height: 20em;
+
+    
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.701);
+    font-family: sans-serif;
+}
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-family: sans-serif;
+    color: rgba(255, 255, 255, 0.826);
+    margin-top: 1em;
+}
+#increment-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+    width: 10rem;
+    height: 2rem;
+    background-color:#85FFBD;
+    border: none;
+}
+#increment-btn:hover{
+    transition: 0.4s;
+background:transparent;
+border: 2px solid #85FFBD;
+color: white;
+
+}
+#decrement-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+    width: 10rem;
+    height: 2rem;
+    background-color:#8F4765;
+    border: none;
+}
+#decrement-btn:hover{
+transition: 0.4s;
+background:transparent;
+border: 2px solid #8F4765;
+color: white;
+
+}
+.buttons{
+    display: flex;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    width: 15rem;
+    height: 2rem;
+    gap: 25px;
+    border: none;
+    font-size: 1.5rem;
+}
+h2{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+input[type="text"]{
+    background-color: #101820ff;
+    width: 30px;
+    color: white;border: none;
+    font-size: 20px;
+}
+.output{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+    color: white;
+}
